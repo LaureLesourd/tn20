@@ -244,6 +244,17 @@ a:focus {
   -o-background-size: cover;
 }
 
+.download-section3 {
+  width: 100%;
+  padding: 50px 0;
+  color: #484860;
+  /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+  background-color: #F0F0D8;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 #map {
   width: 100%;
   height: 200px;
@@ -251,13 +262,16 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 0px;
   }
   .download-section {
     padding: 100px 0;
   }
   .download-section2 {
     padding: 100px 0;
+  }
+  .download-section3 {
+    padding: 50px 0;
   }
   #map {
     height: 400px;
@@ -304,7 +318,7 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 50px 0;
+  padding: 0px 0;
 }
 footer p {
   margin: 0;
